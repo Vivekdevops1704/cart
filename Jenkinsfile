@@ -5,6 +5,9 @@ pipeline {
             stage("checkout"){
                 steps{
                     echo "this is checkout phase"
+                    script {
+                      log.info 'starting'
+                    }
                 }
             }
             stage("build"){
