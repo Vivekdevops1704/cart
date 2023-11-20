@@ -1,7 +1,7 @@
 @Library('roboshop') _
 pipeline {
-    agent { label 'node' }
-        stages {
+    agent any
+       stages {
             stage("checkout"){
                 steps{
                     echo "this is checkout phase"
