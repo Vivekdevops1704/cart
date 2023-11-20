@@ -6,7 +6,7 @@ pipeline {
                 steps{
                     echo "this is checkout phase"
                     script {
-                      log.info 'starting'
+                      demo.info 'starting'
                     }
                 }
             }
