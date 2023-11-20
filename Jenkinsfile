@@ -2,9 +2,9 @@
 pipeline {
     agent any
        stages {
-            stage("checkout"){
+            stage("compile"){
                 steps{
-                    echo "this is checkout phase"
+                    echo "this is compile phase"
                     script {
                       demo.info 'starting'
                     }
